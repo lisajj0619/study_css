@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타일 상속</title>
+    <style>
+        body {
+            color: green;
+        }
+
+        div.inherit-test{
+            color: red;
+            border: 3px dashed #30f;
+            padding: 30px;
+        }
+
+        h1 {
+            padding: inherit;
+        }
+
+        p {
+            border: inherit;
+        }
+
+        button {
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="inherit-test">
+        DIV
+        <h1>Heading</h1>
+        <p>
+            paragraph <strong>strong</strong>
+        </p>
+        <button>Button</button>
+    </div>
+</body>
+</html>

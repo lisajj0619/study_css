@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>클래스와 아이디 속성</title>
+    <style>
+        #a {
+            color: coral;
+        }
+
+        span.x {
+            color: blueviolet;
+        }
+
+        .y {
+            color: magenta;
+        }
+
+        .z {
+            color: maroon;
+        }
+        /* 가장 아래에 있는 스타일이 적용된다. */
+        /* 세부화 된 스타일이 순서와 상관없이 적용된다. */
+    </style>
+</head>
+<body>
+    <span>클래스와 아이디 속성</span>
+    <span id="a" class="x y z">
+        아이디는 단 한개의 값만 작성할 수 있고,
+        클래스는 여러 개의 값을 작성할 수 있다.
+    </span>
+</body>
+</html>
